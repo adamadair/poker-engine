@@ -150,15 +150,15 @@ public final class HandEval {
     private static final int   RANK_SHIFT_4		= RANK_SHIFT_3 + 4;
     public static final int    VALUE_SHIFT		= RANK_SHIFT_4 + 8;
 
-    private static final int   NO_PAIR			= 0;
-    private static final int   PAIR				= NO_PAIR			+ (1 << VALUE_SHIFT);
-    private static final int   TWO_PAIR			= PAIR				+ (1 << VALUE_SHIFT);
-    private static final int   THREE_OF_A_KIND	= TWO_PAIR			+ (1 << VALUE_SHIFT);
-    private static final int   STRAIGHT			= THREE_OF_A_KIND	+ (1 << VALUE_SHIFT);
-    private static final int   FLUSH			= STRAIGHT			+ (1 << VALUE_SHIFT);
-    private static final int   FULL_HOUSE		= FLUSH				+ (1 << VALUE_SHIFT);
-    private static final int   FOUR_OF_A_KIND	= FULL_HOUSE		+ (1 << VALUE_SHIFT);
-    private static final int   STRAIGHT_FLUSH	= FOUR_OF_A_KIND	+ (1 << VALUE_SHIFT);
+    public static final int   NO_PAIR			= 0;
+    public static final int   PAIR				= NO_PAIR			+ (1 << VALUE_SHIFT);
+    public static final int   TWO_PAIR			= PAIR				+ (1 << VALUE_SHIFT);
+    public static final int   THREE_OF_A_KIND	= TWO_PAIR			+ (1 << VALUE_SHIFT);
+    public static final int   STRAIGHT			= THREE_OF_A_KIND	+ (1 << VALUE_SHIFT);
+    public static final int   FLUSH			= STRAIGHT			+ (1 << VALUE_SHIFT);
+    public static final int   FULL_HOUSE		= FLUSH				+ (1 << VALUE_SHIFT);
+    public static final int   FOUR_OF_A_KIND	= FULL_HOUSE		+ (1 << VALUE_SHIFT);
+    public static final int   STRAIGHT_FLUSH	= FOUR_OF_A_KIND	+ (1 << VALUE_SHIFT);
 
     /**
      *  Greater than any return value of the HandEval evaluation methods.

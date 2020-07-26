@@ -19,6 +19,9 @@ public class PokerGame {
         players = new ArrayList<>();
         buttonIndex = 0;
         currentPlayer = 0;
+        handNumber = 0;
+        blindLength = 10;
+
     }
 
     public void addPlayer(PokerPlayer player) throws PokerException {
